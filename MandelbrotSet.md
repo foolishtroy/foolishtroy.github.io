@@ -1,8 +1,11 @@
 ---
-layout: page
+layout: post
 title: "Mandelbrot Set"
-permalink: /Mandelbrot-Set
+permalink: /:title:output_ext
+excerpt_separator: <!--more-->
 ---
+This is an introduction to Mandelbrot Set.
+<!--more-->
 # Mandelbrot Set
 
 The Mandelbrot set $M$ is defined by a uncountable set of complex quadratic polynomials,
