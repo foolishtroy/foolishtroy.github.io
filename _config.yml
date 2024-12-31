@@ -1,4 +1,7 @@
 theme: minima
 title: foolishtroy's homepage
 description: A test portfolio Github Page
-markdown: GFM
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+  input: GFM
