@@ -1,7 +1,6 @@
 ---
 layout: page
 title: "Mandelbrot Set"
-permalink: /Mandelbrot-Set
 ---
 # Mandelbrot Set
 The Mandelbrot set $M$ is defined by a uncountable set of complex quadratic polynomials,
