@@ -4,37 +4,32 @@ title: "Mandelbrot Set"
 permalink: /Mandelbrot-Set
 ---
 # Mandelbrot Set
-$$  \begin{align}
-    ax + by &= c \\
-    dx + ey &= f
-    \end{align}
-$$
-  
-$$
-f(x) =
-\begin{cases}
-x^2 & \text{if } x \geq 0 \\
--x & \text{if } x < 0
-\end{cases}
-$$
-  
-$$
-\boxed{E = mc^2}
-$$
-
 The Mandelbrot set $M$ is defined by a uncountable set of complex quadratic polynomials,
-$$  
+
+$$
     f(z) = z^2 + z_0 
 $$
+
 , where the sample point  $z_0$ is a complex parameter.  
 For each $z_0$, the sequence is obtained by iterating at each $z_0$, i.e.
-$$ (f(0), f(f(0)), f(f(f(0))), \dots) = (z_0, z_0^2+z_0, z_0^4+2z_0^2+z_0^2+z_0, \dots)$$  
-The Mandelbrot set is defined such that the sequene is **bounded** and does not escape to infinity. This conditions constrained that the largeste complex number in the Mandelbrot set is $z_0 = -2$, i.e. the threshold for divergence, or equivalently, 
-$$  |z_n| \leq 2, \quad\forall n \geq 0.$$
+
+$$
+    (f(0), f(f(0)), f(f(f(0))), \dots) = (z_0, z_0^2+z_0, z_0^4+2z_0^2+z_0^2+z_0, \dots)
+$$
+
+The Mandelbrot set is defined such that the sequene is **bounded** and does not escape to infinity. This conditions constrained that the largeste complex number in the Mandelbrot set is $z_0 = -2$, i.e. the threshold for divergence, or equivalently,
+
+$$
+    |z_n| \leq 2, \quad\forall n \geq 0.
+$$
 
 ## Visualization with Density Plot
 For density with $\text{Re}(z_0)$ on $x$-axis and $\text{Im}(z_0)$ on $y$-axis, such that 
-$$ |z| = \sqrt{\text{Re}(z_0)^2 + \text{Im}(z_0)^2} $$  
+
+$$
+    |z| = \sqrt{\text{Re}(z_0)^2 + \text{Im}(z_0)^2} 
+$$
+
 The steps to visualization is as follows
 1. Define the 1D Mandelbrot Set function `Mand(z0, max_steps)`.
 2. Define the 2D function `Mandelbrot(ext, Nxy, max_steps)` to create a 2D array of points in the complex plane.
@@ -73,10 +68,12 @@ print(result)
 1. Initialize the 2D grid with `data`.
 2. Nested `for` loop to map all points in complex plane.  
     For both $x$ and $y$, to ensure that each point is evenly spaced, each iterated steps is fractioned by the intervals,
-    $$ 
+    
+    $$
          x = x_\text{min}
             + (x_\text{max}-x_\text{min}) \times \frac{i}{Nxy-1.00} 
     $$
+    
 3. Store the x, y value in each point of `data`.
 
 
@@ -108,7 +105,6 @@ data = Mandelbrot([-2,1,-1,1], 500, 1000)
 The module `pylab` in `matplotlib` is used to plot the 2D image, basically combining both numpy and matplotlib.pyplot in one namespace.  
     
 (Optional) To ensure the plot is displayed inline , we can use the magic command `%matplotlib inline`. 
-
 
 ```python
 from pylab import *    # plotting library
