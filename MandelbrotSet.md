@@ -2,6 +2,7 @@
 layout: page
 title: "Mandelbrot Set"
 permalink: /Mandelbrot-Set
+usemathjax: true
 ---
 # Mandelbrot Set
 
