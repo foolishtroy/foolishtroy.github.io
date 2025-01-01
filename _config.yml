@@ -1,5 +1,7 @@
-# theme: minima
+theme: minima
+minima: solarized
 title: Homepage
+author: foolishtroy
 description: A test portfolio Github Page
 permalink: /:categories/:title:output_ext
 markdown: kramdown
