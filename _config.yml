@@ -3,4 +3,3 @@ title: Homepage
 description: A test portfolio Github Page
 permalink: /:categories/:title:output_ext
 markdown: kramdown
-mathjax: true
