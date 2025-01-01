@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "Mandelbrot Set"
-permalink: /:title:output_ext
 excerpt_separator: <!--more-->
 ---
 This is an introduction to Mandelbrot Set.
