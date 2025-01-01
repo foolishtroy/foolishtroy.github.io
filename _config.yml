@@ -1,4 +1,4 @@
-theme: minima
+# theme: minima
 title: Homepage
 description: A test portfolio Github Page
 permalink: /:categories/:title:output_ext
