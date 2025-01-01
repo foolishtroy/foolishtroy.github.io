@@ -3,6 +3,4 @@ title: Homepage
 description: A test portfolio Github Page
 permalink: /:categories/:title:output_ext
 markdown: kramdown
-kramdown:
-  math_engine: mathjax
-  input: GFM
+mathjax: true
