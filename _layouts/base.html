@@ -14,21 +14,17 @@
   
     <!-- Configure MathJax -->
     <script type="text/javascript">
-      document.addEventListener("DOMContentLoaded", function () {
-        window.MathJax = {
-          tex: {
-            inlineMath: [['$', '$'], ['\\(', '\\)']],
-            displayMath: [['$$', '$$'], ['\\[', '\\]']],
-          }
-        };
-      });
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']], // Inline math delimiters
+          displayMath: [['$$', '$$'], ['\\[', '\\]']], // Block math delimiters
+        },
+      };
     </script>
   </head>
   <body>
 
     {%- include header.html -%}
-    <p>Layout test 2</p> <!-- Add this line temporarily -->
-
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}

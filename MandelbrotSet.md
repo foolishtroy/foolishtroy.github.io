@@ -4,9 +4,28 @@ title: "Mandelbrot Set"
 permalink: /Mandelbrot-Set
 ---
 # Mandelbrot Set
+$$  \begin{align}
+    ax + by &= c \\
+    dx + ey &= f
+    \end{align}
+$$
+  
+$$
+f(x) =
+\begin{cases}
+x^2 & \text{if } x \geq 0 \\
+-x & \text{if } x < 0
+\end{cases}
+$$
+  
+$$
+\boxed{E = mc^2}
+$$
 
 The Mandelbrot set $M$ is defined by a uncountable set of complex quadratic polynomials,
-$$  f(z) = z^2 + z_0 $$
+$$  
+    f(z) = z^2 + z_0 
+$$
 , where the sample point  $z_0$ is a complex parameter.  
 For each $z_0$, the sequence is obtained by iterating at each $z_0$, i.e.
 $$ (f(0), f(f(0)), f(f(f(0))), \dots) = (z_0, z_0^2+z_0, z_0^4+2z_0^2+z_0^2+z_0, \dots)$$  
