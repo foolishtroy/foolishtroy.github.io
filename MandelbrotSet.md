@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: "Mandelbrot Set"
 permalink: /Mandelbrot-Set
 ---
