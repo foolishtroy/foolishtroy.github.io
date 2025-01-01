@@ -2,32 +2,12 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
   {%- include head.html -%}
-  <head>
-    <!-- Add MathJax -->
-    <script type="text/javascript" async
-      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.min.js">
-    </script>
-    <script type="text/javascript" async>
-      document.addEventListener("DOMContentLoaded", function () {
-        MathJax = {
-          tex: {
-            inlineMath: [['$', '$'], ['\\(', '\\)']],
-            displayMath: [['$$', '$$'], ['\\[', '\\]']],
-          }
-        };
-      });
-    </script>
-    {% if page.usemathjax %}
-    <script type="text/javascript" async
-     src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
-      </script>
-    {% end if %}
-  </head>
 
   <body>
 
     {%- include header.html -%}
     <p>Layout test</p> <!-- Add this line temporarily -->
+    
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
