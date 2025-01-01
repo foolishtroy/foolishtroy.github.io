@@ -1,6 +1,6 @@
 theme: minima
 minima:
-  skin: dark
+  skin: auto
 title: Homepage
 author: foolishtroy
 description: A test portfolio Github Page
