@@ -261,7 +261,7 @@ show()
 
 
     
-![png](../assets/MandelbrotSet_files/MandelbrotSet_22_0.pngassets/MandelbrotSet_files/MandelbrotSet_22_0.png)
+![png](../assets/MandelbrotSet_files/MandelbrotSet_22_0.png)
     
 
 
