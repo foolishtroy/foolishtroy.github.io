@@ -117,7 +117,7 @@ show()
 
 
     
-![png](./MandelbrotSet_files/MandelbrotSet_11_0.png)
+![png](../assets/MandelbrotSet_files/MandelbrotSet_11_0.png)
     
 
 
@@ -261,7 +261,7 @@ show()
 
 
     
-![png](./MandelbrotSet_files/MandelbrotSet_22_0.png)
+![png](../assets/MandelbrotSet_files/MandelbrotSet_22_0.pngassets/MandelbrotSet_files/MandelbrotSet_22_0.png)
     
 
 
