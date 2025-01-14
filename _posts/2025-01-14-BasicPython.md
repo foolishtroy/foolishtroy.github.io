@@ -1,3 +1,7 @@
+---
+layout: page
+title: "Basic Python"
+---
 # Fundamental Types, Lists, and Tuples
 
 
