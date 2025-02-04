@@ -1,0 +1,17 @@
+---
+layout: page
+title: "Cosmology"
+---
+# Overview
+**Cosmology**: the study of the structure, origin, and evolution of the universe.  
+* Modern framework: *Hot big bang theory*, universe expands and cools down.
+* Model-dependent interpretations: only 1 observable universe.
+* Time-scale: 14 billion years old
+Important issues
+1. Dark matter and dark energy
+2. Inflation
+3. Baryogenesis
+**Cosmological Redshift**: as the universe expends, spectra from distant galaxies shifted towards longer wavelengths.
+In homogeneous and isotropic cosmological model, the expansion is described by a time-dependent scale factor $a(t)$. 
+About 14 billion years ago, at the **singularity** (time origin $t=0$), the scale factor $a(t) \to 0$ and the density of the universe $\rho \to \infty$. This is found by general relativity and the observed present expansion rate, $H\equiv \dot a /a$ (More later). 
+At Planck density $\rho_{\text{PI}} \sim 10^{97} \,\text{kg/m^3}
